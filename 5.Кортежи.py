@@ -1,0 +1,8 @@
+seq = (2,8,23,97,92,44,17,39,11,12)
+print(seq,type(seq))
+seq.count(8)
+print(seq.count(8),type(seq))
+seq.index(44)
+print(seq.index(44),type(seq))
+listseq = list(seq)
+print(list(seq),type(list(seq)))

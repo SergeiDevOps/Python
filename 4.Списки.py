@@ -1,0 +1,12 @@
+list1 = [82,8,23,97,92,44,17,39,11,12]
+print(list1,type(list1))
+dir(list)
+print(dir(list))
+list1.append(46)
+print(list1,type(list1))
+list1.insert(5,1)
+print(list1,type(list1))
+list1.remove(44)
+print(list1,type(list1))
+list1.pop()
+print(list1.pop())

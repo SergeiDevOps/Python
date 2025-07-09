@@ -1,0 +1,11 @@
+s0 = "{0}".format(input ("Write down your firstname and secondname: " ))
+s1 = s0.title()
+print(s1)
+s2 = s1.split()
+s3 = sorted(s2,reverse=True)
+s4 = (" ".join(s3))
+p = s4[0:5],s4[0]
+s5 = "".join(p)
+print(s5)
+s6 = "{0}" ":" "{1}".format(s4,s5)
+print(s6)
